@@ -3,7 +3,7 @@ export function Section({ children, className = "" }: SectionProps) {
     <div
       className={`
         box-border
-        mx-auto max-w-500
+        mx-auto
         ${className}
       `}
     >

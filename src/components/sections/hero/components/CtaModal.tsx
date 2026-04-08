@@ -13,7 +13,7 @@ export function CtaModal({ isOpen, onClose }: CtaModalProps) {
   return (
     <AnimatePresence initial={false}>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-6 md:p-13">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-2 md:p-2">
           <motion.div
             layout
             layoutId="cta-card"
